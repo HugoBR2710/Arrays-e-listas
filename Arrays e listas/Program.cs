@@ -9,7 +9,8 @@ namespace Arrays_e_listas
     class Program
     {
         static void Main(string[] args)
-        {
+        {   
+            //Arrays
             Console.WriteLine("Digite o tamanho do array:");
             string N = Console.ReadLine();
 
@@ -37,6 +38,7 @@ namespace Arrays_e_listas
                 }
             }
             
+            //Listas
         }
     }
 }
