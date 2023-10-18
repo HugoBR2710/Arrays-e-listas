@@ -15,11 +15,11 @@ namespace Arrays_e_listas
             string N = Console.ReadLine();
 
             //Verificacao do input para converter para inteiro
-
             if(int.TryParse(N, out int numero))
             {
                 //Declaracao do array do tamanho introduzido pelo utilizador
                 int[] numeros = new int[numero];
+
                 //Ciclo para introduzir numeros do 0 ao numero do tamanho selecionado
                 for (int i = 1; i < numero; i++)
                 {
@@ -39,6 +39,7 @@ namespace Arrays_e_listas
             }
             
             //Listas
+
         }
     }
 }
